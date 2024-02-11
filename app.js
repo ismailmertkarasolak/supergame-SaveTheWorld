@@ -101,7 +101,7 @@ function movemeteor() {
         clearInterval(meteorid)
     }
 }
-meteorid = setInterval(movemeteor,400)
+meteorid = setInterval(movemeteor,550)
 
 function attack(e) {
     let bulletid
